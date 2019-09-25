@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d5177bb-84ab-4636-bf15-a8645f7d7244" name="Default Changelist" comment="" />
+    <list default="true" id="7d5177bb-84ab-4636-bf15-a8645f7d7244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/toolKits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/toolKits.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/knn.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KNN/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="223">
+              <caret line="124" column="48" lean-forward="true" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+              <folding>
+                <element signature="e#264#274#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="140" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -59,17 +67,6 @@
             <path>
               <item name="toolKits" type="b2602c69:ProjectViewProjectNode" />
               <item name="toolKits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toolKits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toolKits" type="462c0819:PsiDirectoryNode" />
-              <item name="for_image_processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toolKits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toolKits" type="462c0819:PsiDirectoryNode" />
-              <item name="for_image_processing" type="462c0819:PsiDirectoryNode" />
-              <item name="adding_text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toolKits" type="b2602c69:ProjectViewProjectNode" />
@@ -106,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.knn">
     <configuration name="knn-jyang" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="toolKits" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,8 +125,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="toolKits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/knn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.knn" />
         <item itemvalue="Python.knn-jyang" />
       </list>
     </recent_temporary>
@@ -148,16 +167,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19556025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53902185" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4630593" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46547884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4630593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -197,9 +216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/iris.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/iris.data" />
     <entry file="file://$PROJECT_DIR$/for_image_processing/adding_text/image_text_editing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -210,33 +227,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/consistentSet.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/letter-recognition.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/knn-jyang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="125" column="6" lean-forward="true" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
-          <folding>
-            <element signature="e#176#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/consistentSet.csv" />
+    <entry file="file://$PROJECT_DIR$/KNN/letter-recognition.data" />
+    <entry file="file://$PROJECT_DIR$/KNN/knn-jyang.py" />
     <entry file="file://$PROJECT_DIR$/KNN/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="223">
+          <caret line="124" column="48" lean-forward="true" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <folding>
+            <element signature="e#264#274#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
