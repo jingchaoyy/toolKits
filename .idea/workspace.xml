@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KNN/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="22" column="31" lean-forward="true" selection-end-line="131" />
             </state>
           </provider>
         </entry>
@@ -235,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KNN/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="306">
+          <caret line="22" column="31" lean-forward="true" selection-end-line="131" />
         </state>
       </provider>
     </entry>
