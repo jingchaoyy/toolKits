@@ -110,7 +110,6 @@ def main():
     k = 1
     # consistentSet = []  # a subset of the training data that correctly classifies all of the original training data
     consistentSet = getconsistentSet(trainingSet, k)
-    consistentSet.to_csv('consistentSet.csv')
     for x in range(len(testSet)):
         neighbors = getNeighbors(consistentSet, testSet[x], k)
         result = getResponse(neighbors)
@@ -123,9 +122,9 @@ def main():
     accuracy = getAccuracy(testSet, predictions)
     print('Accuracy: ' + repr(accuracy) + '%')
 
-    # consistentSet_ = pd.DataFrame(consistentSet)
-    # consistentSet_.to_csv('consistentSet.csv')
-    # print('condense set saved for letter training')
+    consistentSet_ = pd.DataFrame(consistentSet)
+    consistentSet_.to_csv('consistentSet.csv')
+    print('condense set saved for letter training')
 
 
 main()
