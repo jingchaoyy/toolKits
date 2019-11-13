@@ -33,7 +33,7 @@ def add_text_to_img(dir, text, font, size, out_dir):
     img.save(out_dir)
 
 
-path = '/image_sample/'
+path = 'D:/Carrera_Emmanuel_Data/Cities/New York/Data/Sensor Data/DataVisualization/png/'
 dir = glob.glob(path + '*.png')
 rng = pd.date_range(start='5/5/2019', periods=72, freq='H')
 
@@ -45,4 +45,4 @@ for f in range(len(dir)):
     ntext = str(rng[f])
     ntext = ntext.split(' ')
     ntext = ntext[0] + '\n' + ntext[1]
-    add_text_to_img(dir[f], str(ntext), "/fast_99/fast99.ttf", 100, path + 'processed/' + fname)
+    add_text_to_img(dir[f], str(ntext), path + "/fast_99/fast99.ttf", 100, path + 'processed/' + fname)
